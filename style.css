@@ -1,0 +1,135 @@
+body
+{
+  
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+html {
+  scroll-behavior: smooth;
+}
+
+a{
+   
+   background-color: transparent !important;
+   color: black !important;
+}
+
+
+
+
+.btn
+{
+  border: 2px solid white;
+  width: 200px;
+  border-radius: 50px;
+}
+.inner-sofa
+{
+  margin-top: 20px;
+  animation: Slide_up 1.4s ease;
+}
+.r3-i1
+{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 2rem;
+   font-weight: 900;
+   color: black;
+}
+.dummy
+{
+  height: 500px;
+  background-color: blue;
+
+}
+.p10
+{
+  padding: 10px;
+
+}
+.d1
+{
+  background-color: brown;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+.d2
+{
+  background-color: cyan;
+
+}
+.coros
+{
+  background-color: brown !important;
+  color: brown;
+}
+.r3-c1
+{
+  background-color: brown;
+}
+.dumb
+{
+  height: 600px;
+  display: flex;
+  justify-content: center;
+}
+
+.sofa
+{
+ 
+  width: 350px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  padding:10px;
+}
+.inner-sofa
+{
+  height: 500px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+  padding: 5px;
+  
+}
+.inner-sofa:hover{
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  transform: translate(20px,-20px);
+
+  transition: 0.5s;
+  
+}
+.ocor
+{
+  padding: 10px;
+  border: 2px solid gray;
+}
+.cor
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 350px;
+  border: 2px solid black;
+}
+input{
+  background-color: rgb(200, 187, 187)!important;
+  color: rgb(103, 71, 71) !important; 
+}
+
+h3{
+  font-size: medium;
+}
+@keyframes Slide_up {
+  0%
+  {
+    transform: translateX(250px);
+  }
+  100%
+  {
+    transform: translateX(0);
+  }
+}
